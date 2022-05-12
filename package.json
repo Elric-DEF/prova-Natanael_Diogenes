@@ -1,0 +1,23 @@
+{
+  "name": "prova-natanael_diogenes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elric-DEF/prova-Natanael_Diogenes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elric-DEF/prova-Natanael_Diogenes/issues"
+  },
+  "homepage": "https://github.com/Elric-DEF/prova-Natanael_Diogenes#readme",
+  "dependencies": {
+    "knex": "^2.0.0",
+    "sqlite3": "^5.0.8"
+  }
+}
