@@ -8,8 +8,10 @@ exports.up = function(knex) {
         table.integer('sequencial').notNullable()
         table.integer('quantidade').notNullable()
         table.integer('valor').notNullable()
-        table.foreign('produto.id').references('TB_PRODUTO.id')
-        table.foreign('notaFiscal.id').references('TB_NOTA_FISCAL_VENDA.id')
+        table.integer('produto_id').unsigned()
+        table.integer('notaFiscal_id').unsigned()
+        table.foreign('produto_id').references('TB_PRODUTO.id')
+        table.foreign('notaFiscal_id').references('TB_NOTA_FISCAL_VENDA.id')
     })
 };
 
